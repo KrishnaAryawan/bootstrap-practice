@@ -12,11 +12,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
     <title>eStartups</title>
     <!-- As a link -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+    <link rel="stylesheet" href="style.css" />
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
         <a class="navbar-brand" href="index.html" style="color: black"
           ><span style="color: rgb(37, 223, 37)">e</span>Startups</a
         >
@@ -25,19 +25,19 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#!">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#!">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Screenshots</a>
+            <a class="nav-link" href="#!">Screenshots</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
+            <a class="nav-link" href="#!">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#!">Pricing</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -65,49 +65,74 @@
       </div>
     </nav>
   </head>
+
   <body>
-    <p class="appdescription text-center">Simple Systeme Fordiscount</p>
-    <p class="text-center">Integer Cursus Bibendium Augue Ac Cursus</p>
-    <div class="container py-4" style="padding: 10px 250px 10px">
-      <div class="container">
+    <div>
+        <div class="title content-main-bg text-center">
+          <p class="text-muted">Simple Systeme Fordiscount</p>
+          <p class="description text-center text-muted">
+            Interger Cursus Bibendum Augue Ac Cursus
+          </p>
+        </div>
+      </div>
+      <div class="container py-5" style="padding: 0px 250px 0px">
         <div class="row">
           <div class="col">
-            <img class="img1 text-center" src="assets/cloud.svg" />
+            <div class="text-center">
+              <img class="img" src="assets/cloud.svg" /> <br>
+              <b class="cloud">INTRODUCING WHATSAPP</b> <br>
+              <p class="descriptioncloud"> Lorem Ipsum is Simply dummy text of the text printing and typesetting industry</p>
+              <a href="#">Read More</a>
+            </div>
           </div>
           <div class="col">
-            <img class="img2 text-center" src="assets/planet.svg" />
+            <div class="text-center">
+              <img class="img" src="assets/planet.svg" /> <br>
+              <b class="planet">USER FRIENDLY INTERFACE</b> <br>
+              <p class="descriptionplanet"> Lorem Ipsum is Simply dummy text of the text printing and typesetting industry</p>
+              <a href="#">Read More</a>
+            </div>
           </div>
           <div class="col">
-            <img class="img3 text-center" src="assets/asteroid.svg" />
+            <div class="text-center">
+              <img class="img" src="assets/asteroid.svg" /> <br>
+              <b class="asteroid">BUILD THE APP EVERYONE LOVE</b> <br>
+              <p class="descriptionasteroid"> Lorem Ipsum is Simply dummy text of the text printing and typesetting industry</p>
+              <a href="#">Read More</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container py-5" style="padding: 10px 250px 10px">
-      <div class="row">
-        <div class="col">
-          <img class="rounded float-end img4" src="assets/about-img.png" />
-        </div>
-        <div class="col-6">
-          <div class="text">
-            <p><span class="titledescription">ESTARTUP</span> UI Design Mobile</p>
-            <p class="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <ul class="superiority">
-              <li>> Creative Design</li>
-              <li>> Retina Ready</li>
-              <li>> Easy To Use</li>
-              <li>> Unlimited Featured</li>
-              <li>> Unlimited Featured</li>
-            </ul>
+      <div class="container py-5" style="padding: 10px 250px 10px">
+          <div class="row">
+              <div class="col">
+                  <img class="rounded float-end img2" src="assets/about-img.png" />    
+              </div>
+              <div class="col-6">
+                  <div class="text">
+                  <p><span class="brand ">ESTARTUP</span> UI Design Mobile</p>
+                  <p class="description2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <ul class="list-unstyled">
+                  <p>
+                     <li> > Creative Design</li>
+                  </p>
+                  <p>
+                      <li> > Retina Ready</li>
+                  </p>
+                  <p>
+                      <li> > Easy To Use</li>
+                  </p>
+                  <p>
+                      <li> > Unlimited Featured</li>
+                  </p>
+                  <p>
+                      <li> > Unlimited Featured</li>
+                  </p>
+                  </ul>
+              </div>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -123,109 +148,104 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
   </body>
-  <footer>
-   <!-- Footer -->
-<footer class="text-center text-light text-lg-start bg-dark ">
-  
-    </section>
-    <!-- Section: Social media -->
-  
+  <footer class="text-center text-lg-start bg-dark text-muted">
     <!-- Section: Links  -->
     <section class="">
       <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
-        <div class="row mt-4">
+        <div class="row mt-3">
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Company name
+            <h6 class="text-uppercase fw-bold mb-4"> <br>
+              <p class="fas fa-gem me-3"></p>eStartup
             </h6>
             <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
           <!-- Grid column -->
   
           <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <br>
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
-              Products
+              ABOUT US
             </h6>
             <p>
-              <p href="#!" class="text-reset">Angular</p>
+                <p class="text-reset ">About Us</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">React</p>
+                <p class="text-reset ">Features item</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">Vue</p>
+                <p class="text-reset ">Live Streaming</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">Laravel</p>
+                <p class="text-reset ">Privacy Policy</p>
             </p>
           </div>
           <!-- Grid column -->
   
           <!-- Grid column -->
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <br>
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
+              About Us
             </h6>
             <p>
-              <p href="#!" class="text-reset">Pricing</p>
+                <p class="text-reset ">About Us</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">Settings</p>
+                <p class="text-reset ">Features item</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">Orders</p>
+                <p class="text-reset ">Live Streaming</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">Help</p>
+                <p class="text-reset ">Privacy Policy</p>
             </p>
           </div>
           <!-- Grid column -->
-  
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <br>
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
+              Support
             </h6>
             <p>
-              <p href="#!" class="text-reset">Pricing</p>
+                <p class="text-reset ">Faq</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">Settings</p>
+                <p class="text-reset ">Editor Help</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">Orders</p>
+                <p class="text-reset ">Contactp</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">Help</p>
+                <p class="text-reset ">Privacy Policy</p>
             </p>
           </div>
-          
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <br>
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
-              Useful links
+              ABOUT US
             </h6>
             <p>
-              <p href="#!" class="text-reset">Pricing</p>
+                <p class="text-reset ">About Us</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">Settings</p>
+                <p class="text-reset ">Features item</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">Orders</p>
+                <p class="text-reset ">Live Streaming</p>
             </p>
             <p>
-              <p href="#!" class="text-reset">Help</p>
+                <p class="text-reset ">Privacy Policy</p>
             </p>
           </div>
           <!-- Grid column -->
@@ -236,12 +256,12 @@
     <!-- Section: Links  -->
   
     <!-- Copyright -->
-    <div class="text-center text-dark p-4" style="background-color: white;">
-      © Copyright eStartups 2021. All rights reserved. <br>
-      <p class="text-center ">Designed By <a class="bootstrapmade fw-bold" href="#!" >BootstrapMade</a></p>
+    <div class="text-center p-4" style="background-color: rgb(255, 255, 255);">
+      ©Copyright eStartup. All rights reserved. <br>
+      <p class="text-center">Designed by <a class="dev">BoostrapMade</a></p>
     </div>
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
-  </footer>
+
 </html>

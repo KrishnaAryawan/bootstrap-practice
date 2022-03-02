@@ -1,8 +1,25 @@
+
 .nav-link{
     color: black;
 }
 
-.img1{
-    height: 30px;
-    width: 30px;
+.img{
+    height: 80px;
+    width: 80px;
+}
+
+.img2{
+    height: 500px;
+}
+
+.title{
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+}
+.description{
+    font-size: 14px;
+}
+
+.brand{
+    font-weight: bold ;
 }
